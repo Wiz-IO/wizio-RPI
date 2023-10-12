@@ -1,0 +1,30 @@
+{
+  "name": "WizIO - TEST Raspberrypi PI Pico Board",
+  "url": "https://github.com/Wiz-IO",
+  "vendor": "WizIO",
+  "frameworks": [ "Pico-SDK-CMAKE", "Pico-SDK-WizIO", "Pico-SDK-Arduino", "Pico-MicroPython", "RPI-CPP", "RPI-Python", "RPI-Arduino" ],
+
+  "build": {
+    "core"              : "rp2040",
+    "variant"           : "rpipico",
+    "f_cpu"             : "133000000L",
+    "mcu"               : "rp2040",
+    "REM_binary"        : "copy_to_ram",
+    "REM_address"       : "11223344",
+    "REM_WIFI"          : "FALSE",
+    "REM_BT"            : "FALSE",
+    "hwids"             : [ [ "0x2E8A", "0x00C0" ] ]
+  },
+
+  "debug": {
+    "jlink_device"      : "RP2040_M0_0",
+    "openocd_target"    : "rp2040.cfg",
+    "svd_path"          : "rp2040.svd"
+  },
+
+  "upload": {
+    "maximum_ram_size"  :  262144,
+    "maximum_size"      : 2097152,
+    "REM_protocol"      : "uf2"
+  }
+}

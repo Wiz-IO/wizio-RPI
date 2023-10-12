@@ -1,0 +1,80 @@
+{
+  "name"        : "wizio-RPI",
+  "title"       : "PlatformIO - Raspberry Pi",
+  "description" : "Development Platform for Raspberry Pi",
+  "homepage"    : "http://www.wizio.eu",
+  "license"     : "Apache-2.0",
+  "engines"     : { "platformio": "^5" },
+  "repository"  : {
+    "type" : "git",
+    "url"  : "https://github.com/Wiz-IO/wizio-RPI.git"
+  },
+  "version": "1.0.0",
+  "packageRepositories" : [ "http://dl.platformio.org/packages/manifest.json" ],
+  "frameworks": {
+      "Pico-SDK-WizIO"  : {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-pico-wizio.py",
+        "description"   : "User Friendly Pico SDK",
+        "title"         : "WizIO Pico SDK"
+      },    
+      "Pico-SDK-CMAKE"  : {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-pico-cmake.py",
+        "description"   : "Raspberry Pi Pico SDK CMAKE",
+        "title"         : "Raspberry Pi Pico SDK CMAKE"
+      },
+      "Pico-SDK-Arduino": {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-pico-arduino.py",
+        "description"   : "Raspberry Pi Pico Arduino ( ? )",
+        "title"         : "Raspberry Pi Pico Arduino"
+      },
+      "Pico-MicroPython": {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-pico-micropython.py",
+        "description"   : "Raspberry Pi Pico microPython",
+        "title"         : "Raspberry Pi Pico microPython"
+      },
+      "RPI-CPP"         : {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-rpi-cpp.py",
+        "description"   : "Raspberry Pi C/C++ Executable",
+        "title"         : "Raspberry Pi C/C++ Executable"
+      },
+      "RPI-Python"      : {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-rpi-python.py",
+        "description"   : "Raspberry Pi Python Executable",
+        "title"         : "Raspberry Pi Python Executable"
+      },
+      "RPI-Arduino"     : {
+        "package"       : "framework-RPI",
+        "script"        : "builder/frameworks/build-rpi-arduino.py",
+        "description"   : "Raspberry Pi Arduino Executable ( ? )",
+        "title"         : "Raspberry Pi Arduino Executable"
+      }
+  },
+  "packages": {
+    "framework-RPI": {
+        "type"          : "framework",
+        "version"       : "file://F:/XYZ/framework-RPI",
+        "Y_version"     : "https://github.com/Wiz-IO/framework-RPI.git",
+        "url-pico-sdk"  : "https://github.com/raspberrypi/pico-sdk"
+    },
+    "toolchain-gccarmnoneeabi": {
+        "owner"         : "platformio",
+        "type"          : "toolchain",
+        "version"       : "~1.90201.0"
+    },
+    "tool-cmake": {
+        "owner"         : "platformio",
+        "version"       : "~3.16.0"
+    },
+    "tool-ninja": {
+        "owner"         : "platformio",
+        "version"       : "^1.7.0"
+    }
+
+  }
+}

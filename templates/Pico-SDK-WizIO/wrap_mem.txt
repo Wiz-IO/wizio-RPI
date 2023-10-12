@@ -1,0 +1,3 @@
+-Wl,-wrap,malloc
+-Wl,-wrap,calloc
+-Wl,-wrap,free

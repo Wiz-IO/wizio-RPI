@@ -1,0 +1,7 @@
+-Wl,-wrap,sprintf
+-Wl,-wrap,snprintf
+-Wl,-wrap,vsnprintf
+-Wl,-wrap,printf
+-Wl,-wrap,vprintf
+-Wl,-wrap,puts
+-Wl,-wrap,putchar

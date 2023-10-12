@@ -1,0 +1,47 @@
+# Copyright 2023 WizIO ( Georgi Angelov )
+
+from os.path import join
+Import('env')
+
+env.Append(
+        CPPDEFINES = [
+            'PICO_NO_BINARY_INFO=1',  
+            'PICO_FLOAT_SUPPORT_ROM_V1=1',
+            'PICO_DOUBLE_SUPPORT_ROM_V1=1',
+            'PICO_RP2040_B0_SUPPORTED=1',
+            'PICO_RP2040_B1_SUPPORTED=1',
+            'PICO_RP2040_B2_SUPPORTED=1',   
+            'LIB_PICO_PRINTF_PICO',
+            'LIB_PICO_STDIO_UART',         
+        ],
+        LINKFLAGS = [
+            '-u_printf_float',
+            '-u_scanf_float', 
+            '@%s' % join('$PROJECT_DIR', 'common', 'wrap_print.txt'),                       
+            '@%s' % join('$PROJECT_DIR', 'common', 'wrap_math.txt'),
+            '@%s' % join('$PROJECT_DIR', 'common', 'wrap_mem.txt'),
+        ]
+)
+
+env.BuildSources( 
+        join( '$BUILD_DIR', 'sdk' ),
+        join( '$SDK_DIR', 'src', 'rp2_common'),
+        [   '+<*>', 
+            # remove next
+            '-<boot_stage2>'
+            '-<pico_async_context>',
+            '-<*btstack*>',
+            '-<*cyw43*>',
+            '-<*lwip*>',
+            '-<pico_stdio_usb>',
+            '-<pico_stdio_semihosting>',
+            '-<pico_double/double_none.S>',
+            '-<pico_float/float_none.S>',
+            '-<pico_printf/printf_none.S>',
+        ]
+)
+
+env.BuildSources( 
+        join( '$BUILD_DIR', 'sdk', 'common' ),
+        join( '$SDK_DIR', 'src', 'common'),
+)
