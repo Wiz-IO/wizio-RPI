@@ -58,7 +58,7 @@
   "packages": {
     "framework-RPI": {
         "type"          : "framework",
-        "X_version"       : "file://F:/XYZ/framework-RPI",
+        "X_version"     : "file://F:/XYZ/framework-RPI",
         "version"       : "https://github.com/Wiz-IO/framework-RPI.git",
         "url-pico-sdk"  : "https://github.com/raspberrypi/pico-sdk"
     },
