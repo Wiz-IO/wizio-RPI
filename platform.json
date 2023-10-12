@@ -27,8 +27,8 @@
       "Pico-SDK-Arduino": {
         "package"       : "framework-RPI",
         "script"        : "builder/frameworks/build-pico-arduino.py",
-        "description"   : "Raspberry Pi Pico Arduino ( ? )",
-        "title"         : "Raspberry Pi Pico Arduino"
+        "description"   : "Raspberry Pi Pico Arduino (TODO)",
+        "title"         : "Raspberry Pi Pico Arduino (TODO)"
       },
       "Pico-MicroPython": {
         "package"       : "framework-RPI",
@@ -51,15 +51,15 @@
       "RPI-Arduino"     : {
         "package"       : "framework-RPI",
         "script"        : "builder/frameworks/build-rpi-arduino.py",
-        "description"   : "Raspberry Pi Arduino Executable ( ? )",
-        "title"         : "Raspberry Pi Arduino Executable"
+        "description"   : "Raspberry Pi Arduino Executable (TODO)",
+        "title"         : "Raspberry Pi Arduino Executable (TODO)"
       }
   },
   "packages": {
     "framework-RPI": {
         "type"          : "framework",
-        "version"       : "file://F:/XYZ/framework-RPI",
-        "Y_version"     : "https://github.com/Wiz-IO/framework-RPI.git",
+        "X_version"       : "file://F:/XYZ/framework-RPI",
+        "version"       : "https://github.com/Wiz-IO/framework-RPI.git",
         "url-pico-sdk"  : "https://github.com/raspberrypi/pico-sdk"
     },
     "toolchain-gccarmnoneeabi": {
