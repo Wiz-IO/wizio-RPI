@@ -12,7 +12,7 @@ I won't explain why I deleted the old platform and why I uploaded a new one
 * Raspberry PI 3,4,5 Arduino Executable ( TODO )
 
 ## INSТATLL 
-* Advanced platform installation: this URL
+* Advanced platform installation - from URL: **https://github.com/Wiz-IO/wizio-RPI**
 * Auto clone last pico-sdk ( about 2 minutes, only platform & framework )
 
 ## UPDATE ( SDK )
