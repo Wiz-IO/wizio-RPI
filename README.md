@@ -11,7 +11,7 @@ I won't explain why I deleted the old platform and why I uploaded a new one
 * Raspberry PI 3,4,5 Python Executable
 * Raspberry PI 3,4,5 Arduino Executable ( TODO )
 
-## INSATLL 
+## INSТATLL 
 * Advanced platform installation: this URL
 * Auto clone last pico-sdk ( about 2 minutes, only platform & framework )
 
