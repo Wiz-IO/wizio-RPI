@@ -7,7 +7,6 @@ from os.path import join, exists, normpath, dirname, basename
 from shutil import copyfile
 from subprocess import Popen, PIPE
 from platformio import proc, fs
-from SCons.Script import COMMAND_LINE_TARGETS
 
 sys.path.append(dirname(__file__))
 from wiz import ERROR,PLATFORM_NAME,FRAMEWORK_NAME,MODE_CMAKE,MODE_PYTHON,MKDIR,RMDIR
