@@ -16,7 +16,7 @@
 * Advanced platform installation - from URL: **https://github.com/Wiz-IO/wizio-RPI**
 * Auto clone last pico-sdk ( about 2 minutes, only platform & framework )
 
-## UPDATE ( SDK )
+## UPDATE
 * Delete folder ( update pico-sdk ): .platformio\packages\framework-RPI
 * Delete folder ( update platform ): .platformio\platforms\wizio-RPI
 
