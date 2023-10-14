@@ -1,6 +1,6 @@
 # Development Platform ( IO ) for Raspberry PI
 
-I won't explain why I deleted the old platform and why I uploaded a new one
+(...)
 
 ## FRAMEWORKS
 * Raspberry PI RP2040 Pico SDK CMAKE ( as is )
