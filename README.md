@@ -46,14 +46,14 @@ I promoted the platform ... it was a WOW effect !!! C/C++ and Arduino<br>
 
 While I was writing examples for the kids: how to ... I got an idea about WiFi<br>
 The idea was to use an SDIO chip ( USB WiFI for PC )<br>
-because millions of chips (for PC) have been put into use and have been tested to the maximum and their price is minimal<br>
+because millions of chips ( for PC ) have been put into use and have been tested to the maximum and their price is minimal<br>
 
-Searching for a solution I reached WICED Cypress/Broadcom ( full documentation !!! )<br>
-but I couldn't find a chip to experiment with, nor do I have a scale to implement<br>
-Broadcom!!! so, they are friends with RaspberryPI !!!<br>
-I have detailed the RaspberryPI Pico idea/solution<br>
-Followed: This is nonsense ... we are working on more surprises<br>
-deleted the idea ... the screenshot is a reaction to the above action<br>
+[Searching for a solution](http://mcu-bg.com/mcu_site/viewtopic.php?f=3&t=17922) I reached WICED Cypress / **Broadcom** ( full documentation !!! )<br>
+but **I couldn't find a chip to experiment with, nor do I have a scale to implement**<br>
+**Broadcom** !!! They are friends with RaspberryPI !!!<br>
+I have **detailed** the RaspberryPI Pico idea/solution<br>
+Followed: **This is nonsense** ... We are working on more surprises !<br>
+deleted the idea ... [reaction to the above action](https://forums.raspberrypi.com/viewtopic.php?p=1889882&hilit=WICED#p1889843)<br>
 OK, no problem<br>
 
 About a year has passed since these events<br>
