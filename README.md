@@ -59,7 +59,7 @@ OK, no problem<br>
 About a year has passed since these events<br>
 Surfing the WEB I come across ads: Pico W ( wifi )<br>
 to look at what they did ... ?!?!?!?! just as I described, one to one !!!!<br>
-- Guys, say: Thanks...<br>
+- Guys, **say: Thanks...** ( they boast that they have sold several tens of million units )<br>
 - **Who are you, these are trivial things?** ( in this sense )<br>
 - ?!?!<br>
 
@@ -67,4 +67,11 @@ It is not possible for me to know the platform, the chip, the interface and the 
 **I am not an oracle to know all the parameters**<br>
 Ok, no problem<br>
 
+Some time passed, in the project I had written: I am stopping support because RaspberryPI are "fraudsters" <br>
+A RaspberryPI Pico boss emailed me: Why? ... I explained ... He apologized ... I deleted the comments<br>
+While we were talking ( month, two ) I made this platform: for ALL RaspberryPI products<br>
+The last answer was: We don't have a person who knows **Python** ( this is funny )<br>
+and we can't support the platform in the future<br>
+
+in short, that was it...
 
